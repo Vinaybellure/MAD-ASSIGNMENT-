@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+	<script src="assets/js/myscript.js"></script>
+</head>
+<body>
+	<div>
+	<div id="first">
+<img id="logo2"  src="assets/images/logo2.gif"> 
+
+</div>
+<div class ="square">
+	<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- LineTo commands with absolute coordinates -->
+  <path class="path" fill="none" stroke="#448fba" stroke-width="0.3" d="M 30,30 v -5 H 120 v 50 H 30 v -5"/>
+</svg>
+</div>
+<div class="text1">
+<p id="texta"> Simplify wealth management with</p>
+<div id="third">
+</div>
+<p id="textb"></p>
+<div class="second">
+	</div>
+<p id="textc"> How does manging and enjoying your wealth wisely sound to you?<br> Sign up and get an exclusive preview of the future wealth management.</p>
+<input type="text" id="fname" name="fname" placeholder="Enter you are E-mail address">
+
+</div>
+
+<div class="home">
+	
+	<img class="dots" src="assets/images/dots-pattern.png">
+
+<video  id="bgvid" playsinline autoplay muted loop> <source src="assets/videos/video.mp4" type="video/mp4"> 
+</video>
+ </div> 
+</div>
+
+<div class="menu">
+  <img class="logo" src="assets/images/logov2.png">
+  <div class="menu1">
+  <a href="#home">HOW IT WORKS</a>
+  <a href="#news">ABOUT</a>
+  <a href="#contact">TEAM</a>
+  <a href="#contact">CONTACT</a>
+</div>
+<button class="button">GET EARLY ACCESS</button>
+</div>
+
+<div class="footer">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+</div>
+ 
+<script type="text/javascript">
+	 var text = ["Single Application", "Verified Avenues", "Trusted Advisors"];
+var counter = 0;
+var elem = document.getElementById("textb");
+var inst = setInterval(change, 2000);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+}
+</script> 
+
+</body>
+</html>
